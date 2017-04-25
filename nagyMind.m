@@ -1,7 +1,9 @@
+function main()
+	%midPoint(centerPointX, centerPointY, radius).
+	%bresenham(centerPointX, centerPointY, radius).
+end
+
 function midPoint(xCenter, yCenter, radius)
-    xCenter = input('Enter x center: ')
-    yCenter = input('Enter y center: ')
-    radius = input('Enter radius: ')
     x = 0;
     y = radius;
         
@@ -22,9 +24,7 @@ function midPoint(xCenter, yCenter, radius)
 end
 
 function bresenham(xCenter, yCenter, radius)
-	xCenter = input('Enter x center: ')
-    yCenter = input('Enter y center: ')
-    radius = input('Enter radius: ')
+
     x = 0;
     y = radius;
     
