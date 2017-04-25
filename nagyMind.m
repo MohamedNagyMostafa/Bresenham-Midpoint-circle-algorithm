@@ -1,12 +1,10 @@
 function midPoint(xCenter, yCenter, radius)
-	xCenter = input('Enter x center: ')
+    xCenter = input('Enter x center: ')
     yCenter = input('Enter y center: ')
     radius = input('Enter radius: ')
     x = 0;
     y = radius;
-    
-    draw(xCenter, yCenter, x, y);
-    
+        
     d = 1 - radius;
 
     while(x < y)
